@@ -1,0 +1,36 @@
+.main-box{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    border: 3px solid black;
+    background-color: sienna;
+    height: 500px;
+    width: 500px;
+    padding: 0.5rem;
+}
+
+.second-box{
+    margin: 1.5rem;
+    border: 3px solid black; 
+    background-color: silver;
+    height: 450px;
+    width: 450px;
+}
+
+.content-box{
+    margin: 3rem;
+}
+
+.show-quote{
+    margin-left: 22%;
+    margin-bottom: 20px;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+}
+
+.quote-box{
+    margin-top: 15%;
+}

@@ -1,0 +1,10 @@
+.content{
+    position: absolute;
+    top: 250px;
+    left: 600px;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+}
