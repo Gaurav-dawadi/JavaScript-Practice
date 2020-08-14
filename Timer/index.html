@@ -1,29 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
 
-    <svg height='500' width='800'>
+    <title>Timer</title>
+  </head>
+  <body>
+    <div class="timer">
+      <div class="controls">
+        <input id="duration" value="10" />
+        <div>
+          <button id="start"><i class="fas fa-play"></i></button>
+          <button id="pause"><i class="fas fa-pause"></i></button>
+        </div>
+      </div>
+      <svg class="dial">
         <circle
-            r='190'
-            cx='400'
-            cy='250'
-            fill='transparent'
-            stroke='green'
-            stroke-width='6'
-            transform='rotate(-90 400 250)'    
+          fill="transparent"
+          stroke="teal"
+          stroke-width="15"
+          r="190"
+          cx="400"
+          cy="400"
+          transform="rotate(-90 400 400)"
         />
-    </svg>
-
-    <input type="text" id='duration' value='30'/>
-    <button id='start'>Start</button>
-    <button id='pause'>Pause</button>
+      </svg>
+    </div>
 
     <script src="timer.js"></script>
-    <script src="script.js"></script>  
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
